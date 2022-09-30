@@ -39,6 +39,11 @@
                         <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-warning mx-3">Edit</a>
                     </div>
                 </td>
+                <td>
+                    <div class="w-75 btn-group">
+                        <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-3">Delete</a>
+                    </div>
+                </td>
             </tr>
         }
     </tbody>
